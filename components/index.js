@@ -1,19 +1,19 @@
-import ScreenHeaderBtn from "./common/header/screenheader-btn";
+import ScreenHeaderBtn from "./organisms/header/screenheader-btn";
 
 // home screen
-import Welcome from "./home/welcome/welcome";
-import Nearbyjobs from "./home/nearby/nearbyjobs";
-import Popularjobs from "./home/popular/popularjobs";
+import Welcome from "./pages/welcome/welcome";
+import Nearbyjobs from "./pages/nearby/nearbyjobs";
+import Popularjobs from "./pages/popular/popularjobs";
 
 // job details screen
-import Company from "./jobdetails/company/Company";
-import { default as JobTabs } from "./jobdetails/tabs/Tabs";
-import { default as JobAbout } from "./jobdetails/about/About";
-import { default as JobFooter } from "./jobdetails/footer/Footer";
-import Specifics from "./jobdetails/specifics/Specifics";
+import Company from "./organisms/company/Company";
+import { default as JobTabs } from "./organisms/tabs/Tabs";
+import { default as JobAbout } from "./organisms/about/About";
+import { default as JobFooter } from "./organisms/footer/Footer";
+import Specifics from "./organisms/specifics/Specifics";
 
 // common
-import NearbyJobCard from "./common/cards/nearby/nearbyjob-card";
+import NearbyJobCard from "./molecules/cards/nearby/nearbyjob-card";
 
 export {
   ScreenHeaderBtn,
