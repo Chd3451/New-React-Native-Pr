@@ -10,7 +10,7 @@ import {
 
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
-import PopularJobCard from "../../common/cards/popular/PopularJobCard";
+import PopularJobCard from "../../common/cards/popular/popularjob-card";
 import useFetch from "../../../hook/useFetch";
 
 const Popularjobs = () => {
