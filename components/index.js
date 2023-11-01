@@ -1,9 +1,9 @@
 import ScreenHeaderBtn from "./organisms/header/screenheader-btn";
 
 // home screen
-import Welcome from "./pages/welcome/welcome";
-import Nearbyjobs from "./pages/nearby/nearbyjobs";
-import Popularjobs from "./pages/popular/popularjobs";
+import Welcome from "./templates/welcome/welcome";
+import Nearbyjobs from "./templates/nearby/nearbyjobs";
+import Popularjobs from "./templates/popular/popularjobs";
 
 // job details screen
 import Company from "./organisms/company/Company";
